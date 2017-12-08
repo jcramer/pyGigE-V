@@ -1,0 +1,201 @@
+Copyright 2017 James Cramer
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice, 
+    this list of conditions and the following disclaimer.
+
+    2. Redistributions in binary form must reproduce the above copyright notice, 
+    this list of conditions and the following disclaimer in the documentation 
+    and/or other materials provided with the distribution.
+
+    3. Neither the name of the copyright holder nor the names of its contributors 
+    may be used to endorse or promote products derived from this software without 
+    specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE 
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL 
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER 
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------------
+OTHER LICENSES
+-------------------------------------------------------------------------------
+
+License Agreement for TELEDYNE DALSA Inc GigE-V Framework for Linux
+
+IMPORTANT -- READ CAREFULLY BEFORE INSTALLING THE SOFTWARE.
+
+Installation of the software indicates your acceptance of the following 
+License Agreement.
+
+This is a legal agreement between you (either an individual or an entity) 
+and Teledyne TELEDYNE  DALSA Inc. ("TELEDYNE DALSA"). Use of this software 
+constitutes acceptance of the terms of this agreement. If you do not agree 
+to the terms of this agreement, do not use the software.
+
+1.  GRANT OF LICENSE
+
+a. The GigE-V Framework for Linux (the "Licensed Software") is an SDK intended 
+   for developing imaging applications using TELEDYNE DALSA image acquisition 
+   and processing hardware. The Licensed Software consists of a series of 
+   open source libraries that links to a static binary library containing 
+   functions providing the basic communciation protocols of the GigE Vision
+   standard.
+
+
+b. The Licensed Software is not designed for use in on-line control equipment
+   in hazardous environments such as operation of nuclear facilities, 
+   aircraft navigation or control, or direct life support machines.
+
+c. You have a right to reproduce, and distribute, in object code form and 
+   solely as part of your installation system, any installation executable 
+   files and object libraries included with the Licensed Software, provided 
+   you 
+        (i)  include your valid copyright notice on your application; and 
+        (ii) agree to indemnify, hold harmless and defend TELEDYNE DALSA from 
+             and against any claims or lawsuits, including attorney's fees, 
+             that arise or result from  the use or distribution of your 
+             application. 
+	
+    You may not, however, modify the TELEDYNE DALSA copyright notice embedded 
+    in any of the installations executable files or object libraries.
+
+d. You have a right to reproduce, and distribute, in binary or source form, 
+   any portion of the Licensed Software that is covered by the BSD Open Source 
+   license. (See the license statement provided with the source code).
+ 
+
+2.  COPYRIGHT
+
+The Licensed Software is owned by TELEDYNE DALSA and is provided, partly, in 
+source form under the BSD license (outlined above) and partly in binary form.
+
+
+The source code components of the Licensed Software is provided with the 
+following standard BSD license :
+
+    Copyright (c) 2011 Teledyne DALSA Inc
+    All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without 
+    modification, are permitted provided that the following conditions 
+    are met:
+	    -Redistributions of source code must retain the above copyright 
+	     notice, this list of conditions and the following disclaimer. 
+	    -Redistributions in binary form must reproduce the above 
+	     copyright notice, this list of conditions and the following 
+	     disclaimer in the documentation and/or other materials provided 
+	     with the distribution. 
+	    -Neither the name of Teledyne DALSA nor the names of its 
+	     contributors may be used to endorse or promote products derived 
+	     from this software without specific prior written permission. 
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS 
+    FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE 
+    COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, 
+    INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+    (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+    HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+    STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+    OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+The binary components comprise the implementation of the communication
+protocols for the GigE Vision standard. The name GigE Vision is a 
+registered trademark of the Automated Imaging Association (AIA). 
+The detailed specifications of the GigE Vision standard and communication
+protocols is only available under license from the AIA. 
+(see http://www.machinevisiononline.org/)
+
+
+3.  OTHER RESTRICTIONS
+You may not reverse engineer, decompile or disassemble the binary components 
+of the Licensed Software for any purpose whatsoever. The Open Source 
+components of the Licensed Software may be freely copied, reproduced, and 
+modified at your own risk.
+
+4.  TERM
+
+Your license is effective upon installing and using the Licensed Software. 
+You may terminate it at any time by destroying the Licensed Software together 
+with all copies. It will also terminate upon conditions set forth elsewhere 
+in this Agreement or if you fail to comply with any term or condition of this 
+Agreement. You agree upon such termination to destroy all copies of the 
+Licensed Software in any form in your possession or under your control.
+
+5.  LIMITED WARRANTY
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS 
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE 
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, 
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+6.  DISCLAIMER OF DAMAGES
+
+Due to the open source nature of much of the Licensed Software there is 
+a large degree of flexibility in the possible modification that can be 
+made, by you, in the course of using the software.
+ 
+You assume responsibility for, among other things, (i) the selection and 
+modification of the Licensed Software to achieve your intended results, 
+(ii) the acquisition of other software (including any programming or 
+operating system software) and/or equipment compatible with the Licensed 
+Software, and (iii) the installation, use and results obtained from the 
+Licensed Software. Further, inasmuch as the price paid for the license 
+rights granted to you to use the Licensed Software may be substantially 
+disproportionate to the value of products to be used in conjunction with 
+the Licensed Software, and for the express purpose of limiting the 
+liability against TELEDYNE DALSA to an extent which is reasonably 
+proportionate to the commercial value of this transaction, you agree that, 
+to the maximum extent permitted by law, TELEDYNE DALSA shall in no event 
+be liable for any damages whatsoever (including without limitation, 
+damages for loss of business profits, business interruption, loss of 
+business information, or any other pecuniary loss) arising out of the use 
+or inability to use the Licensed Software, whether direct, indirect, 
+incidental, non-sequential, special or otherwise, REGARDLESS OF THE FORM 
+OF ACTION, even if TELEDYNE DALSA has been advised of the possibility of 
+such damages.
+
+7.  UPDATES & TECHNICAL SUPPORT
+
+
+The Licensed Software is provided on "as is" basis. TELEDYNE DALSA at its own 
+sole discretion will determine the level of technical support and minor 
+upgrades offered. 
+
+
+8.  GENERAL
+
+a. This License is personal between you and TELEDYNE DALSA. It is not 
+transferable and any attempt by you to rent, lease, sublicense, assign or 
+transfer any of the rights, duties or obligations hereunder, except as 
+provided in Section 3, above, is void. This Agreement and the conduct of the 
+parties hereto shall be governed by the laws of the Province of Ontario.
+
+b. YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT
+AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS. YOU FURTHER AGREE
+THAT IT IS THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT
+BETWEEN YOU AND TELEDYNE DALSA WHICH SUPERSEDES ANY PROPOSAL OR PRIOR 
+AGREEMENT, ORAL OR WRITTEN, AND ANY OTHER COMMUNICATIONS BETWEEN YOU AND 
+TELEDYNE DALSA OR TELEDYNE DALSA'S AGENT(S) RELATING TO THE LICENSED SOFTWARE.
