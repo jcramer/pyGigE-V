@@ -1,2 +1,2 @@
-import gev_wrapper
+import pygigev
 
