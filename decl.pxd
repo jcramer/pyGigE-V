@@ -288,10 +288,11 @@ cdef extern from "gevapi.h":
 
 	# GEV_STATUS GevGetNextImage( GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT **image_object_ptr, struct timeval *pTimeout);
 	# GEV_STATUS GevGetImageBuffer( GEV_CAMERA_HANDLE handle, void **image_buffer);
+	GEV_STATUS GevGetImageBuffer( GEV_CAMERA_HANDLE handle, void** image_buffer)
 	# GEV_STATUS GevGetImage( GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT **image_object);
 	# GEV_STATUS GevWaitForNextImageBuffer( GEV_CAMERA_HANDLE handle, void **image_buffer, UINT32 timeout);
+	GEV_STATUS GevWaitForNextImageBuffer(GEV_CAMERA_HANDLE handle, void** image_buffer, UINT32 timeout)
 	# GEV_STATUS GevWaitForNextImage( GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT **image_object, UINT32 timeout);
-	GEV_STATUS GevWaitForNextImage(GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT** image_object_ptr, int timeout)
 
 	# GEV_STATUS GevReleaseImage( GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT *image_object_ptr);
 	GEV_STATUS GevReleaseImage(GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT* image_object_ptr)
