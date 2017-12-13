@@ -61,12 +61,3 @@ cv2.destroyAllWindows()
 #ctx.GevAbortImageTransfer() # not working at the moment
 #ctx.GevReleaseImageBuffer() # not working at the moment, will need to exit python to release memory
 ctx.GevCloseCamera()
-
-
-# def reshape(height, width):
-#     img = ctx.GevGetImageBuffer()
-#     return img.reshape(height, width)
-
-# timeit.timeit(stmt='reshape(height, width)', setup="from __main__ import reshape, width, height", number=100000)
-# timeit.timeit(stmt='ctx.GevGetImageBufferReshaped(height, width)', setup="from __main__ import ctx, width, height", number=100000)
-#timeit -r15 ctx.GevGetImageBufferResize(height, width)
