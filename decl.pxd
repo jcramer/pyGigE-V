@@ -16,14 +16,14 @@ ctypedef char INT8
 ctypedef unsigned char UINT8
 ctypedef short INT16
 ctypedef unsigned short UINT16
-ctypedef int BOOL
+ctypedef bint BOOL
 ctypedef long INT32
 ctypedef unsigned long UINT32
 
 ctypedef UINT8* PUINT8
 ctypedef UINT32* PUINT32
 
-ctypedef UINT16 GEV_STATUS
+ctypedef int GEV_STATUS
 
 # typedef struct
 # {
@@ -147,12 +147,12 @@ cdef extern from "gevapi.h":
 	# 	UINT32 ifIndex;		// Index of network interface (set by system - required for packet interface access).
 	# } GEV_NETWORK_INTERFACE, *PGEV_NETWORK_INTERFACE;
 	ctypedef struct GEV_NETWORK_INTERFACE:
-		pass
-		# BOOL fIPv6
-		# UINT32 ipAddr
-		# UINT32 ipAddrLow
-		# UINT32 ipAddrHigh
-		# UINT32 ifIndex
+		BOOL fIPv6
+		UINT32 ipAddr
+		UINT32 ipAddrLow
+		UINT32 ipAddrHigh
+		UINT32 ifIndex
+		#pass
 
 	# typedef struct
 	# {
@@ -178,7 +178,7 @@ cdef extern from "gevapi.h":
 		UINT32 ipAddrHigh
 		UINT32 macLow
 		UINT32 macHigh
-		#GEV_NETWORK_INTERFACE host
+		GEV_NETWORK_INTERFACE host
 		UINT32 capabilities
 		char[65] manufacturer
 		char[65] model
@@ -293,10 +293,11 @@ cdef extern from "gevapi.h":
 	# GEV_STATUS GevWaitForNextImageBuffer( GEV_CAMERA_HANDLE handle, void **image_buffer, UINT32 timeout);
 	GEV_STATUS GevWaitForNextImageBuffer(GEV_CAMERA_HANDLE handle, void** image_buffer, UINT32 timeout)
 	# GEV_STATUS GevWaitForNextImage( GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT **image_object, UINT32 timeout);
+	GEV_STATUS GevWaitForNextImage( GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT** image_object, UINT32 timeout)
 
 	# GEV_STATUS GevReleaseImage( GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT *image_object_ptr);
-	GEV_STATUS GevReleaseImage(GEV_CAMERA_HANDLE handle, GEV_BUFFER_OBJECT* image_object_ptr)
 	# GEV_STATUS GevReleaseImageBuffer( GEV_CAMERA_HANDLE handle, void *image_buffer_ptr);
+	GEV_STATUS GevReleaseImageBuffer( GEV_CAMERA_HANDLE handle, void* image_buffer_ptr)
 
 	# //=================================================================================================
 	# // Camera event handling
