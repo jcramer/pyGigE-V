@@ -1,16 +1,37 @@
 from distutils.core import setup
 from distutils.extension import Extension
-from Cython.Distutils import build_ext
 
-ext_modules = [Extension("pygigev", 
-                             ["pygigev.pyx"], 
+USE_CYTHON = False
+
+ext = '.pyx' if USE_CYTHON else '.c'
+
+extensions = [Extension("pygigev", 
+                             ["pygigev" + ext], 
                              language="c",
                              include_dirs=["/usr/dalsa/GigeV/include/"],
                              libraries=["GevApi"],
                              )]
+if USE_CYTHON:    
+    from Cython.Build import cythonize
+    extensions = cythonize(extensions)
 
 setup(
-    name='pygigev',
-    cmdclass = {'build_ext': build_ext},
-    ext_modules=ext_modules
+    ext_modules = extensions
     )
+
+# from distutils.core import setup
+# from distutils.extension import Extension
+
+# USE_CYTHON = ...   # command line option, try-import, ...
+
+# ext = '.pyx' if USE_CYTHON else '.c'
+
+# extensions = [Extension("example", ["example"+ext])]
+
+# if USE_CYTHON:
+#     from Cython.Build import cythonize
+#     extensions = cythonize(extensions)
+
+# setup(
+#     ext_modules = extensions
+# )
